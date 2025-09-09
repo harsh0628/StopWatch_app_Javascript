@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Stopwatch App</h1>
+      <p class="subtitle">A simple and stylish stopwatch with lap feature</p>
+    </header>
+    <div class="stopwatch">
+      <div class="timerdisplay" id="timerdisplay">00:00:00.00</div>
+      <div class="controls">
+        <button class="btn" style="--clr: green" id="start">Start</button>
+        <button class="btn" style="--clr: red" id="stop">Stop</button>
+        <button class="btn" style="--clr: blue" id="reset">Reset</button>
+        <button class="btn" style="--clr: orange" id="lap">Lap</button>
+      </div>
+      <ul class="laps" id="lapsContainer"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <p>&copy; 2025 Stopwatch App By Harsh Jhunjhunwala</p>
+  </footer>
+</html>
